@@ -12,6 +12,11 @@
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
 		5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE01D9C519B003DCE37 /* Assets.xcassets */; };
 		5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */; };
+		F627C10B1D9C583D004DFD6E /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627C10A1D9C583D004DFD6E /* Tiger.swift */; };
+		F627C10D1D9C5ABE004DFD6E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627C10C1D9C5ABE004DFD6E /* Coordinate.swift */; };
+		F6879E6E1D9DA8CA00C08B99 /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6879E6D1D9DA8CA00C08B99 /* PizzaDeliveryService.swift */; };
+		F6879E701D9DA9FB00C08B99 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6879E6F1D9DA9FB00C08B99 /* Person.swift */; };
+		F6879E731D9DBB5400C08B99 /* PeopleAndPizza in Resources */ = {isa = PBXBuildFile; fileRef = F6879E721D9DBB5400C08B99 /* PeopleAndPizza */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5B077DE01D9C519B003DCE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B077DE31D9C519B003DCE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B077DE51D9C519B003DCE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F627C10A1D9C583D004DFD6E /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		F627C10C1D9C5ABE004DFD6E /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		F6879E6D1D9DA8CA00C08B99 /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		F6879E6F1D9DA9FB00C08B99 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F6879E721D9DBB5400C08B99 /* PeopleAndPizza */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PeopleAndPizza; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 		5B4F927E1D9C533B00B9360D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6879E711D9DAB6A00C08B99 /* Models */,
 				5B077DD91D9C519B003DCE37 /* AppDelegate.swift */,
 				5B077DDB1D9C519B003DCE37 /* ViewController.swift */,
 				5B077DDD1D9C519B003DCE37 /* Main.storyboard */,
@@ -70,6 +81,18 @@
 				5B077DE51D9C519B003DCE37 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6879E711D9DAB6A00C08B99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6879E721D9DBB5400C08B99 /* PeopleAndPizza */,
+				F627C10A1D9C583D004DFD6E /* Tiger.swift */,
+				F627C10C1D9C5ABE004DFD6E /* Coordinate.swift */,
+				F6879E6D1D9DA8CA00C08B99 /* PizzaDeliveryService.swift */,
+				F6879E6F1D9DA9FB00C08B99 /* Person.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +127,6 @@
 				TargetAttributes = {
 					5B077DD51D9C519B003DCE37 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = KXY9EDFTF5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6879E731D9DBB5400C08B99 /* PeopleAndPizza in Resources */,
 				5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */,
 				5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */,
 				5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */,
@@ -145,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6879E701D9DA9FB00C08B99 /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
+				F627C10B1D9C583D004DFD6E /* Tiger.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
+				F6879E6E1D9DA8CA00C08B99 /* PizzaDeliveryService.swift in Sources */,
+				F627C10D1D9C5ABE004DFD6E /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PeopleAndPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.PeopleAndPizza;
@@ -280,7 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PeopleAndPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.PeopleAndPizza;
